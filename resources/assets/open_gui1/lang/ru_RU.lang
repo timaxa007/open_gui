@@ -1,0 +1,5 @@
+﻿
+tile.open_gui1.crate.name=Ящик
+item.open_gui1.bag.name=Мешок
+item.open_gui1.reviver.name=Оживлятор
+entity.open_gui1.EntityInventory.name=Сущность с Инвентарём

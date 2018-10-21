@@ -1,0 +1,5 @@
+
+tile.open_gui1.crate.name=Create
+item.open_gui1.bag.name=Bag
+item.open_gui1.reviver.name=Reviver
+entity.open_gui1.EntityInventory.name=Entity with Inventory
