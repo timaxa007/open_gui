@@ -41,6 +41,7 @@ public class EntityInventoryContainer extends Container {
 		if (entity == null) return false;
 		if (entity.inventory == null) return false;
 		if (entity.isDead) return false;
+		if (player.getDistanceSqToEntity(entity) > 64) return false;
 		return entity.inventory.isUseableByPlayer(player);
 	}
 
