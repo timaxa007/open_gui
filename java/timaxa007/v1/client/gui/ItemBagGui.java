@@ -37,7 +37,7 @@ public class ItemBagGui extends GuiContainer {
 	public void drawGuiContainerForegroundLayer(int i1, int i2) {
 		//Именование инвентаря Item Storage
 		if (inv != null) fontRendererObj.drawString(
-				(inv.hasCustomInventoryName() ? inv.getInventoryName() : StatCollector.translateToLocal("inventory.backpack.name")), 8, 6, 4210752);
+				(inv.hasCustomInventoryName() ? inv.getInventoryName() : StatCollector.translateToLocal("item.open_gui1.bag.name")), 8, 6, 4210752);
 		//Именование инвентаря игрока
 		if (inv_p != null) fontRendererObj.drawString(
 				StatCollector.translateToLocal("container.inventory"), 8, inventoryRows * 18 + 19, 4210752);
